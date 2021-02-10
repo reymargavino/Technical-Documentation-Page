@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<div class="sidebar">
+	<p class="HTML">HTML Documentation</p>
+	<hr>
+	<a href="file:///C:/Users/Admin/Desktop/SUBJECTS/CC14/Projects/Technical%20Documentation%20Page/index.html#home">Introduction</a>
+	<hr>
+	<a href="file:///C:/Users/Admin/Desktop/SUBJECTS/CC14/Projects/Technical%20Documentation%20Page/Creating%20Hyperlinks.html">Creating Hyperlinks</a>
+	<hr> 
+	<a href="file:///C:/Users/Admin/Desktop/SUBJECTS/CC14/Projects/Technical%20Documentation%20Page/Debugging%20HTML.html">Debugging HTML</a>
+	<hr> 
+	<a href="file:///C:/Users/Admin/Desktop/SUBJECTS/CC14/Projects/Technical%20Documentation%20Page/HTML%20Tags.html">HTML Tags</a>
+
+</div>
+
+<div class="content">
+	<p class="content"> Hyperlinks are really important — they are what makes the Web a web. This article shows the syntax 
+	required to make a link, and discusses link best practices.</p>
+	<div class="shade">
+		<strong>Prerequisites:</strong>	Basic HTML familiarity, as covered in Getting started with HTML. HTML text formatting, as covered in 
+		HTML text fundamentals.<br><br>
+		<strong>Objective:</strong>	To learn how to implement a hyperlink effectively, and link multiple files together.
+	</div>
+	<br><h1>What is a hyperlink?</h1><br>
+	<p class="content">Hyperlinks are one of the most exciting innovations the Web has to offer. They've been a feature of the 
+	Web since the beginning, and are what makes the Web a web. Hyperlinks allow us to link documents to other documents or 
+	resources, link to specific parts of documents, or make apps available at a web address. Almost any web content can be 
+	converted to a link so that when clicked or otherwise activated the web browser goes to another web address (URL).</p>
+	<div class="note">
+		<em>Note: A URL can point to HTML files, text files, images, text documents, video and audio files, or anything else 
+		that lives on the Web. If the web browser doesn't know how to display or handle the file, it will ask you if you want 
+		to open the file (in which case the duty of opening or handling the file is passed to a suitable native app on the 
+		device) or download the file (in which case you can try to deal with it later on).</em>
+	</div>
+	<p class="content">For example, the BBC homepage contains many links that point not only to multiple news stories, but also 
+	different areas of the site (navigation functionality), login/registration pages (user tools), and more.</p>
+	<img class="element" src="./Images/updated-bbc-website.png">
+	<br><h1>Anatomy of a link</h1><br>
+	<p class="content">A basic link is created by wrapping the text or other content, see Block level links, inside an <a> 
+	element and using the href attribute, also known as a Hypertext Reference, or target, that contains the web address.</p>
+	<div class="shade">&lt;p&gt;I'm creating a link to<br>
+	&lt;a href="https://www.mozilla.org/en-US/"&gt;the Mozilla homepage&lt;/a&gt;.<br>
+	&lt;p&gt;</div>
+	<p class="content">Another attribute you may want to add to your links is title. The title contains additional information 
+	about the link, such as which kind of information the page contains, or things to be aware of on the web site.</p>
+	<div class="shade">&lt;p&gt;I'm creating a link to<br>
+	&lt;a href="https://www.mozilla.org/en-US/"<br>
+	title="The best place to find more information about Mozilla's<br>
+    mission and how to contribute">the Mozilla homepage&lt;/a&gt;.<br>
+	&lt;p&gt;</div>
+	<p class="content">This gives us the following result and hovering over the link displays the title as a tooltip.</p>
+</div>
+</body>
+</html>
